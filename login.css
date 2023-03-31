@@ -1,0 +1,242 @@
+.container{
+
+height: 800px;
+width: 100%;
+ background:  #e4e7ea;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #1d2939;
+    font-family: 'LatoRegular', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, sans-serif !important;
+    line-height: 21px;
+    color: #636e7b;
+}
+
+.left{
+    width: 30%;
+    height: 300px;
+    /* background-color: antiquewhite; */
+    position: relative;
+    left: 200px;
+    top: 160px;
+    float: left;
+}
+
+.right {
+
+    width: 22%;
+    height: 300px;
+    /* background-color: antiquewhite; */
+    position: relative;
+    left: -200px;
+    top: 170px;
+    float: right;
+    background: rgba(255,255,255,0.2);
+    border: 1px solid #ccc;
+    line-height: 12px;
+    box-sizing: border-box;
+}
+
+
+
+.title h1 {
+
+text-align: center;
+font-size: 30px;
+    font-family: 'LatoBold', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, sans-serif;
+    color: #1d2939;
+    letter-spacing: -1.5px;
+
+}
+
+.title h1 span{
+    color: #1caf9a;
+}
+
+.title-des h5 strong {
+
+    font-family: 'LatoBold';
+    font-weight: normal;
+font-size: 15px;
+ 
+
+}
+
+.title-des h5{
+    margin-left: 100px;
+}
+
+ul li {
+    list-style-type: none;
+    margin-left: 70px;
+    font-size: 11px;
+    font-family: 'LatoRegular', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, sans-serif !important;
+    line-height: 21px;
+    color: #636e7b
+}
+
+form input {
+
+    margin: 10px 50px ;
+padding: 12px;
+width: 60%;
+margin-left:px ;
+
+}
+
+.form h4{
+
+    font-family: 'LatoRegular', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, sans-serif;
+margin: 0;
+font-size: 18px;
+font-weight: 500;
+margin-bottom: -7px;
+
+}
+
+
+.form h4 {
+
+    margin-left: 45px;
+    margin-top: 30px;
+
+} 
+
+.form p{
+    margin-left: 45px; 
+    font-size: 13px;
+    margin-top: 20px;
+      
+}
+
+#uname{
+    background:  url(images/username.png) no-repeat 95% center;
+    border-radius: 3px;
+
+}
+
+
+
+#upass{
+    background:  url(images/password.png) no-repeat 95% center;
+    border-radius: 3px;   
+}
+
+
+.form a {
+    text-decoration: none;
+    color :  #636e7b;
+    margin-left: 52px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.submit{
+    background-color: #1CAF9A;
+    border-color: #17a08c;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    color: #fff;
+    border-radius: 3px;
+    padding: 15px 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.footer{
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+    padding-top: 10px;
+    font-size: 12px;
+    position: relative;
+    left: -600px;
+}
+
+#submit{
+    width: 70%;
+}
+/* .float{
+    float: left
+} */
+
+
+/* mediq query section  */
+
+@media screen and (max-width:1150px)  {
+    
+    .right{
+        width: 25%;
+    }
+
+}
+
+@media screen and (max-width:1036px)  {
+    
+    .right{
+        width: 28%;
+    }
+
+    .footer{
+        position: relative;
+        left:-290px ;
+    }
+
+}
+
+@media screen and (max-width:1014px)  {
+    
+ .left{
+
+margin-left: -90px;
+    
+ }
+
+.title-des ul li{
+    margin-left: -10px;
+}
+
+.title-des h5 strong{
+    margin-left: -72px;
+}
+
+
+.title{
+    margin-left: -38px;
+}
+
+
+.right{
+
+    position: relative;
+    top: 100px;
+    width: 85%;
+    left: -50px;
+    /* height: 600px; */
+    margin-bottom: 100px;
+
+}
+
+.form{
+
+    margin-left: 40px;
+/* width: 30%; */
+}
+
+.footer{
+    margin-left: 300px;
+    
+}
+
+.form input{
+
+    width: 80%;
+}
+
+
+}
